@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccaaffc-561a-4bd9-a8db-3c0bad4b4738" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/golang/Binary Tree Level Order Traversal II/Binary Tree Level Order Traversal II.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/golang/removeDuplicatesFromSortedArray.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/binary tree level order traversal II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/golang/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LeetCodeProblemSolutions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCodeProblemSolutions.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Minimum depth of binary tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isPallindrome.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang/isPallindrome.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/longestCommonPrefix.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang/longestCommonPrefix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/removeDuplicatesFromSortedArray.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse integer.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang/reverse integer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallest range I.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang/smallest range I.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang/two_sum.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$binary_tree_level_order_traversal_II.coverage" NAME="binary tree level order traversal II Coverage Results" MODIFIED="1540383088496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Minimum_depth_of_binary_tree.coverage" NAME="Minimum depth of binary tree Coverage Results" MODIFIED="1540716080631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -76,17 +66,26 @@
       <file leaf-file-name="Binary Tree Level Order Traversal II.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/golang/Binary Tree Level Order Traversal II/Binary Tree Level Order Traversal II.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="1581">
               <caret line="93" selection-start-line="93" selection-end-line="93" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="binary tree level order traversal II.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="binary tree level order traversal II.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/binary tree level order traversal II.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="7" selection-start-line="7" selection-end-line="26" selection-end-column="27" />
+            <state relative-caret-position="-52">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Minimum depth of binary tree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/Minimum depth of binary tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -108,6 +107,7 @@
       <find>p</find>
       <find>stackInt</find>
       <find>val</find>
+      <find>vals</find>
     </findStrings>
     <replaceStrings>
       <replace>I</replace>
@@ -116,6 +116,7 @@
       <replace>result</replace>
       <replace>TreeNode</replace>
       <replace>Val</replace>
+      <replace>temp</replace>
     </replaceStrings>
   </component>
   <component name="GOROOT" path="C:\Go" />
@@ -133,6 +134,7 @@
         <option value="$PROJECT_DIR$/removeDuplicatesFromSortedArray.go" />
         <option value="$PROJECT_DIR$/Binary Tree Level Order Traversal II/Binary Tree Level Order Traversal II.go" />
         <option value="$PROJECT_DIR$/python/binary tree level order traversal II.py" />
+        <option value="$PROJECT_DIR$/python/Minimum depth of binary tree.py" />
       </list>
     </option>
   </component>
@@ -145,10 +147,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="50" />
-    <option name="y" value="115" />
-    <option name="width" value="860" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="681" />
+    <option name="y" value="91" />
+    <option name="width" value="1034" />
     <option name="height" value="890" />
   </component>
   <component name="ProjectView">
@@ -202,15 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.binary tree level order traversal II">
-    <configuration name="go build Binary Tree Level Order Traversal II.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeProblemSolutions" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Binary Tree Level Order Traversal II/Binary Tree Level Order Traversal II.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
+  <component name="RunManager" selected="Python.Minimum depth of binary tree">
     <configuration name="go build longestCommonPrefix.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeProblemSolutions" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -235,6 +229,25 @@
       <filePath value="$PROJECT_DIR$/reverse integer.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="Minimum depth of binary tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCodeProblemSolutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Minimum depth of binary tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="binary tree level order traversal II" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCodeProblemSolutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,9 +269,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.binary tree level order traversal II" />
+      <item itemvalue="Python.Minimum depth of binary tree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Minimum depth of binary tree" />
         <item itemvalue="Python.binary tree level order traversal II" />
       </list>
     </recent_temporary>
@@ -277,23 +292,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="545" y="73" width="827" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328125" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19597316" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17340288" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -310,6 +325,55 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/golang/smallest range I.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/golang/reverse integer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-start-column="2" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/golang/isPallindrome.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/golang/longestCommonPrefix.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/golang/removeDuplicatesFromSortedArray.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/golang/Binary Tree Level Order Traversal II/Binary Tree Level Order Traversal II.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/binary tree level order traversal II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/golang/smallest range I.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -467,15 +531,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/golang/Binary Tree Level Order Traversal II/Binary Tree Level Order Traversal II.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="1581">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/binary tree level order traversal II.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="7" selection-start-line="7" selection-end-line="26" selection-end-column="27" />
+        <state relative-caret-position="-52">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/Minimum depth of binary tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
         </state>
       </provider>
     </entry>
