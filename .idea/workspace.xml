@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccaaffc-561a-4bd9-a8db-3c0bad4b4738" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python/Path Sum II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Sum Root to Leaf Numbers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/Diameter of Binary Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Diameter of Binary Tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Path Sum II.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Path Sum II.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/Path Sum II.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -51,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Same Tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/Same Tree.py">
+      <file leaf-file-name="Sum Root to Leaf Numbers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/Sum Root to Leaf Numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -132,6 +131,7 @@
       <find>stackInt</find>
       <find>val</find>
       <find>vals</find>
+      <find>sum</find>
     </findStrings>
     <replaceStrings>
       <replace>I</replace>
@@ -141,6 +141,7 @@
       <replace>TreeNode</replace>
       <replace>Val</replace>
       <replace>temp</replace>
+      <replace>s</replace>
     </replaceStrings>
   </component>
   <component name="GOROOT" path="C:\Go" />
@@ -174,6 +175,7 @@
         <option value="$PROJECT_DIR$/python/Leaf-Similar Trees.py" />
         <option value="$PROJECT_DIR$/python/Diameter of Binary Tree.py" />
         <option value="$PROJECT_DIR$/python/Path Sum II.py" />
+        <option value="$PROJECT_DIR$/python/Sum Root to Leaf Numbers.py" />
       </list>
     </option>
   </component>
@@ -186,9 +188,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="822" />
-    <option name="y" value="40" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="847" />
+    <option name="y" value="83" />
     <option name="width" value="950" />
     <option name="height" value="890" />
   </component>
@@ -373,17 +375,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="678" y="67" width="760" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23789173" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28993055" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.087919466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18714286" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -406,13 +408,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/golang/Binary Tree Level Order Traversal II/Binary Tree Level Order Traversal II.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/binary tree level order traversal II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -754,6 +749,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/Sum Root to Leaf Numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
