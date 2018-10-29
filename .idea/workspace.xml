@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccaaffc-561a-4bd9-a8db-3c0bad4b4738" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python/Invert Binary Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Max Area of Island.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Binary Tree Paths.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,6 +16,7 @@
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$binary_tree_level_order_traversal_II.coverage" NAME="binary tree level order traversal II Coverage Results" MODIFIED="1540383088496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Employee_importance.coverage" NAME="Employee importance Coverage Results" MODIFIED="1540746516589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Symmetric_tree__iterative_.coverage" NAME="Symmetric tree (iterative) Coverage Results" MODIFIED="1540737629896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Binary_Tree_Paths.coverage" NAME="Binary Tree Paths Coverage Results" MODIFIED="1540795409856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Minimum_depth_of_binary_tree.coverage" NAME="Minimum depth of binary tree Coverage Results" MODIFIED="1540716080631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
   </component>
   <component name="FileEditorManager">
@@ -67,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Invert Binary Tree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Invert Binary Tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/Invert Binary Tree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" lean-forward="true" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Binary Tree Paths.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/Binary Tree Paths.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -130,6 +138,7 @@
         <option value="$PROJECT_DIR$/python/path sum.py" />
         <option value="$PROJECT_DIR$/python/Max Area of Island.py" />
         <option value="$PROJECT_DIR$/python/Invert Binary Tree.py" />
+        <option value="$PROJECT_DIR$/python/Binary Tree Paths.py" />
       </list>
     </option>
   </component>
@@ -202,7 +211,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Employee importance">
+  <component name="RunManager" selected="Python.Binary Tree Paths">
+    <configuration name="Binary Tree Paths" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCodeProblemSolutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Binary Tree Paths.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Employee importance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCodeProblemSolutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,25 +288,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="binary tree level order traversal II" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCodeProblemSolutions" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/binary tree level order traversal II.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="symmetric Tree (recursive)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCodeProblemSolutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -299,19 +308,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.binary tree level order traversal II" />
       <item itemvalue="Python.Minimum depth of binary tree" />
       <item itemvalue="Python.symmetric Tree (recursive)" />
       <item itemvalue="Python.Symmetric tree (iterative)" />
       <item itemvalue="Python.Employee importance" />
+      <item itemvalue="Python.Binary Tree Paths" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Binary Tree Paths" />
         <item itemvalue="Python.Employee importance" />
         <item itemvalue="Python.Symmetric tree (iterative)" />
         <item itemvalue="Python.symmetric Tree (recursive)" />
         <item itemvalue="Python.Minimum depth of binary tree" />
-        <item itemvalue="Python.binary tree level order traversal II" />
       </list>
     </recent_temporary>
   </component>
@@ -335,11 +344,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3628472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22569445" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18194842" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18194842" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -362,13 +371,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python/Employee importance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/golang/smallest range I.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -709,7 +711,14 @@
     <entry file="file://$PROJECT_DIR$/python/Invert Binary Tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" lean-forward="true" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/Binary Tree Paths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
