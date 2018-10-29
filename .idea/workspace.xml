@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccaaffc-561a-4bd9-a8db-3c0bad4b4738" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python/Diameter of Binary Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Leaf-Similar Trees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Path Sum II.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Diameter of Binary Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Diameter of Binary Tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,20 +19,12 @@
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Employee_importance.coverage" NAME="Employee importance Coverage Results" MODIFIED="1540746516589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Symmetric_tree__iterative_.coverage" NAME="Symmetric tree (iterative) Coverage Results" MODIFIED="1540737629896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Binary_Tree_Paths.coverage" NAME="Binary Tree Paths Coverage Results" MODIFIED="1540795409856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Path_Sum_II.coverage" NAME="Path Sum II Coverage Results" MODIFIED="1540838071071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Minimum_depth_of_binary_tree.coverage" NAME="Minimum depth of binary tree Coverage Results" MODIFIED="1540716080631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Maximum Depth of N-ary Tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/Maximum Depth of N-ary Tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Leaf-Similar Trees.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Leaf-Similar Trees.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/Leaf-Similar Trees.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -41,11 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="N-ary Tree Level Order Traversal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/N-ary Tree Level Order Traversal.py">
+      <file leaf-file-name="Diameter of Binary Tree.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/Diameter of Binary Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="68">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Path Sum II.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/Path Sum II.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -170,8 +171,9 @@
         <option value="$PROJECT_DIR$/python/Binary Tree Paths.py" />
         <option value="$PROJECT_DIR$/python/Sum of Left Leaves.py" />
         <option value="$PROJECT_DIR$/python/Maximum Depth of Binary Tree.py" />
-        <option value="$PROJECT_DIR$/python/Diameter of Binary Tree.py" />
         <option value="$PROJECT_DIR$/python/Leaf-Similar Trees.py" />
+        <option value="$PROJECT_DIR$/python/Diameter of Binary Tree.py" />
+        <option value="$PROJECT_DIR$/python/Path Sum II.py" />
       </list>
     </option>
   </component>
@@ -185,10 +187,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1042" />
-    <option name="y" value="66" />
-    <option name="width" value="893" />
-    <option name="height" value="825" />
+    <option name="x" value="822" />
+    <option name="y" value="40" />
+    <option name="width" value="950" />
+    <option name="height" value="890" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -244,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Binary Tree Paths">
+  <component name="RunManager" selected="Python.Path Sum II">
     <configuration name="Binary Tree Paths" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCodeProblemSolutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,7 +285,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Minimum depth of binary tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Path Sum II" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCodeProblemSolutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,7 +298,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Minimum depth of binary tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Path Sum II.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,19 +343,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Minimum depth of binary tree" />
       <item itemvalue="Python.symmetric Tree (recursive)" />
       <item itemvalue="Python.Symmetric tree (iterative)" />
       <item itemvalue="Python.Employee importance" />
       <item itemvalue="Python.Binary Tree Paths" />
+      <item itemvalue="Python.Path Sum II" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Path Sum II" />
         <item itemvalue="Python.Binary Tree Paths" />
         <item itemvalue="Python.Employee importance" />
         <item itemvalue="Python.Symmetric tree (iterative)" />
         <item itemvalue="Python.symmetric Tree (recursive)" />
-        <item itemvalue="Python.Minimum depth of binary tree" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +379,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22569445" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23789173" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -404,20 +406,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/golang/longestCommonPrefix.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/golang/removeDuplicatesFromSortedArray.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/golang/Binary Tree Level Order Traversal II/Binary Tree Level Order Traversal II.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
@@ -752,6 +740,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/Diameter of Binary Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/Path Sum II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="18" />
         </state>
       </provider>
     </entry>
