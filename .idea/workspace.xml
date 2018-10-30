@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccaaffc-561a-4bd9-a8db-3c0bad4b4738" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/python/Max Area of Island.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Max Area of Island.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Find Bottom Left Tree Value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,6 +20,7 @@
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Symmetric_tree__iterative_.coverage" NAME="Symmetric tree (iterative) Coverage Results" MODIFIED="1540737629896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Binary_Tree_Paths.coverage" NAME="Binary Tree Paths Coverage Results" MODIFIED="1540795409856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Path_Sum_II.coverage" NAME="Path Sum II Coverage Results" MODIFIED="1540838071071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Find_Bottom_Left_Tree_Value.coverage" NAME="Find Bottom Left Tree Value Coverage Results" MODIFIED="1540898591226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/LeetCodeProblemSolutions$Minimum_depth_of_binary_tree.coverage" NAME="Minimum depth of binary tree Coverage Results" MODIFIED="1540716080631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
   </component>
   <component name="FileEditorManager">
@@ -77,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Max Area of Island.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Max Area of Island.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/Max Area of Island.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Find Bottom Left Tree Value.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/Find Bottom Left Tree Value.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -91,15 +102,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" lean-forward="true" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sum of Left Leaves.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/Sum of Left Leaves.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -181,6 +183,7 @@
         <option value="$PROJECT_DIR$/python/Keys and Rooms.py" />
         <option value="$PROJECT_DIR$/python/Flood Fill.py" />
         <option value="$PROJECT_DIR$/python/Max Area of Island.py" />
+        <option value="$PROJECT_DIR$/python/Find Bottom Left Tree Value.py" />
       </list>
     </option>
   </component>
@@ -194,8 +197,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="735" />
-    <option name="y" value="111" />
+    <option name="x" value="-53" />
+    <option name="y" value="147" />
     <option name="width" value="950" />
     <option name="height" value="890" />
   </component>
@@ -253,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Number of Islands">
+  <component name="RunManager" selected="Python.Find Bottom Left Tree Value">
     <configuration name="Binary Tree Paths" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCodeProblemSolutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,6 +290,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Employee importance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Find Bottom Left Tree Value" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCodeProblemSolutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Find Bottom Left Tree Value.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,39 +352,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Symmetric tree (iterative)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCodeProblemSolutions" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Symmetric tree (iterative).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.Symmetric tree (iterative)" />
       <item itemvalue="Python.Employee importance" />
       <item itemvalue="Python.Binary Tree Paths" />
       <item itemvalue="Python.Path Sum II" />
       <item itemvalue="Python.Number of Islands" />
+      <item itemvalue="Python.Find Bottom Left Tree Value" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Find Bottom Left Tree Value" />
         <item itemvalue="Python.Number of Islands" />
         <item itemvalue="Python.Path Sum II" />
         <item itemvalue="Python.Binary Tree Paths" />
         <item itemvalue="Python.Employee importance" />
-        <item itemvalue="Python.Symmetric tree (iterative)" />
       </list>
     </recent_temporary>
   </component>
@@ -386,11 +389,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28917378" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23646724" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12684564" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12684564" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -413,13 +416,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/golang/reverse integer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-start-column="2" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/golang/isPallindrome.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -759,8 +755,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/Max Area of Island.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/Find Bottom Left Tree Value.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
