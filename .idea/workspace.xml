@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccaaffc-561a-4bd9-a8db-3c0bad4b4738" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python/Flood Fill.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/Max Area of Island.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/Max Area of Island.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,16 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Keys and Rooms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/Keys and Rooms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Flood Fill.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Flood Fill.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/Flood Fill.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
@@ -87,11 +77,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Binary Tree Paths.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/Binary Tree Paths.py">
+      <file leaf-file-name="Max Area of Island.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/Max Area of Island.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="374">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Keys and Rooms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/Keys and Rooms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -170,7 +169,6 @@
         <option value="$PROJECT_DIR$/python/N-ary Tree Level Order Traversal.py" />
         <option value="$PROJECT_DIR$/python/Same Tree.py" />
         <option value="$PROJECT_DIR$/python/path sum.py" />
-        <option value="$PROJECT_DIR$/python/Max Area of Island.py" />
         <option value="$PROJECT_DIR$/python/Invert Binary Tree.py" />
         <option value="$PROJECT_DIR$/python/Binary Tree Paths.py" />
         <option value="$PROJECT_DIR$/python/Sum of Left Leaves.py" />
@@ -182,6 +180,7 @@
         <option value="$PROJECT_DIR$/python/Number of Islands.py" />
         <option value="$PROJECT_DIR$/python/Keys and Rooms.py" />
         <option value="$PROJECT_DIR$/python/Flood Fill.py" />
+        <option value="$PROJECT_DIR$/python/Max Area of Island.py" />
       </list>
     </option>
   </component>
@@ -195,8 +194,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="823" />
-    <option name="y" value="37" />
+    <option name="x" value="735" />
+    <option name="y" value="111" />
     <option name="width" value="950" />
     <option name="height" value="890" />
   </component>
@@ -391,7 +390,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07449664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12684564" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -681,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/Max Area of Island.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/Invert Binary Tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -744,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/Number of Islands.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/Keys and Rooms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -758,10 +743,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python/Number of Islands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/Flood Fill.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/Max Area of Island.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
