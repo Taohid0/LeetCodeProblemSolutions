@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccaaffc-561a-4bd9-a8db-3c0bad4b4738" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python/Flatten Binary Tree to Linked List.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/Search in a Binary Search Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/-ary Tree Preorder Traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Insert into a Binary Search Tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,24 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Diameter of Binary Tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/Diameter of Binary Tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Path Sum II.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/Path Sum II.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Sum Root to Leaf Numbers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/Sum Root to Leaf Numbers.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,11 +80,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search in a Binary Search Tree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Search in a Binary Search Tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/Search in a Binary Search Tree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="34" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Insert into a Binary Search Tree.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/Insert into a Binary Search Tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="-ary Tree Preorder Traversal.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/-ary Tree Preorder Traversal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -187,6 +187,8 @@
         <option value="$PROJECT_DIR$/python/Find Bottom Left Tree Value.py" />
         <option value="$PROJECT_DIR$/python/Flatten Binary Tree to Linked List.py" />
         <option value="$PROJECT_DIR$/python/Search in a Binary Search Tree.py" />
+        <option value="$PROJECT_DIR$/python/Insert into a Binary Search Tree.py" />
+        <option value="$PROJECT_DIR$/python/-ary Tree Preorder Traversal.py" />
       </list>
     </option>
   </component>
@@ -419,20 +421,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/golang/removeDuplicatesFromSortedArray.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/golang/Binary Tree Level Order Traversal II/Binary Tree Level Order Traversal II.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/binary tree level order traversal II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -767,6 +755,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="34" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/Insert into a Binary Search Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/-ary Tree Preorder Traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
