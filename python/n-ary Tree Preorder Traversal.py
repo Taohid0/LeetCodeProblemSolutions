@@ -3,10 +3,10 @@ class Solution:
         if root is None:
             return []
 
-        nodes, output = [root, ], []
+        nodes, result = [root, ], []
         while nodes:
             root = nodes.pop()
-            output.append(root.val)
+            result.append(root.val)
             nodes= nodes+root.children[::-1]
 
-        return output
+        return result
